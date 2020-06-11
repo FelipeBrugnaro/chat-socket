@@ -6,7 +6,7 @@ var port = process.env.PORT || 3001;
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
-app.get('/style', (req, res) => {
+app.get('/styles', (req, res) => {
   res.sendFile(__dirname + '/style.css');
 });
 
