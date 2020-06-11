@@ -1,5 +1,5 @@
 {
-  "name": "chatsocket",
+  "name": "chat socket",
   "version": "0.0.1",
   "description": "meu primeiro app socket",
   "dependencies": {
