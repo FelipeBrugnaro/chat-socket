@@ -1,0 +1,41 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body {
+    font: 13px Helvetica, Arial;
+  }
+  form { 
+    background: #2c3e50; 
+    padding: 20px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+  }
+  form input { 
+    border: 0; 
+    padding: 10px; 
+    width: 100%;  
+  }
+  form button { 
+    width: 100%;
+    background-color: #34495e;
+    border: none;
+    color: #ecf0f1;
+    padding: 10px; 
+  }
+  #messages { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  #messages li { 
+    padding: 5px 10px; 
+  }
+  #messages li:nth-child(odd) { 
+    background: #eeeeee; 
+  }
+  #messages { 
+    margin-bottom: 40px 
+  }
